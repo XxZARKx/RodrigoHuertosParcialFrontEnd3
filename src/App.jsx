@@ -1,12 +1,13 @@
 import './App.css'
-import Shows from './components/Shows'
+import Card from './components/Card'
+import ComprarEntrada from './components/ComprarEntrada'
 
 function App() {
 
   return (
-    <>
-      <Shows/>
-    </>
+    <div className='App'>
+      <ComprarEntrada />
+    </div>
   )
 }
 
